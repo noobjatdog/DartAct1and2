@@ -21,7 +21,7 @@ void main () {
     double result = CalculatePerimeter(10, 5, false);
     print ('The perimeter for the Rectangle is ' + result.toString());
 
-    result = CalculatePerimeter(7, 7, true);
+    result = CalculatePerimeter(7, true);
     print ('The perimeter for the Square is ' + result.toString());
 }
 
